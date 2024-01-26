@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    user-select: none;
+}
+
+h1 {
+    font-family: 'chakra petch', sans-serif;
+    font-size: 1rem;
+    text-transform: lowercase;
+    padding-top: 12px;
+    padding-left: 20px;
+    color: white;
+}
+
+h2 {
+    padding-left: 70px;
+    padding-top: 40px;
+}
+
+h3 {
+    padding-top: 20px;
+    font-size: 1rem;
+}
+
+h4 {
+    padding-top: 40px;
+    padding-left: 70px;
+    padding-bottom: 60px;
+    font-size: 3.2rem;
+    font-family: 'montserrat', sans-serif;
+}
+
+h4 strong {
+    font-size: 2rem;
+    font-family: 'montserrat', sans-serif;
+    padding-left: 40px;
+}
+
+.flexbox65 {
+    margin-top: -30px;
+    margin-left: 125px;
+}
+.flexbox66 {
+    margin-top: -30px;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-bottom: 320px;
+}
+
+h5 {
+    text-align: left;
+    padding-left: 30px;
+    color: white;
+    font-family: 'poppins', sans-serif;
+    font-size: 1.6rem;
+}
+
+.flexboxactu {
+    padding-top: 322px;
+    padding-left: 0px;
+    width: 100%;
+}
+.flexboxactu2 {
+    background-color: rgba(58, 58, 58, 0.6);
+    height: 60px;
+    padding-top: 18px;
+    border-radius: 0 0 10px 10px;
+}
+
+h6 {
+    text-align: left;
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'poppins', sans-serif;
+    font-size: 0.9rem;
+}
+
+a,
+a h3 {
+    text-decoration: none;
+    text-align: center;
+    user-select: none;
+}
+
+
+
+.nav {
+    background: rgb(20, 2, 40);
+    height: 45px;
+}
+.navbarmenu {
+    position: sticky;
+    top: 0;
+    border-bottom: rgb(32, 32, 83) 1.2px solid;
+    
+}
+
+.navbarmenu ul {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 10px;
+    background: rgb(255, 255, 255);
+    height: 35px;
+    list-style: none;
+    user-select: none;
+    font-family: 'open sans', sans-serif;
+}
+
+.navbarmenu a, 
+.navbarmenu a:visited {
+    text-transform: uppercase;
+    color: rgb(16, 6, 75);
+    text-decoration: none;
+}
+.navbarmenu a:hover {
+    color: rgb(20, 15, 81);
+    text-decoration: underline rgb(16, 3, 67);
+
+}
+
+.boxtitle {
+    background: url(title3.jpg) center/cover;
+    height: 600px;
+    justify-content: center;
+}
+
+.boxtitle1 {
+    background: url(devfront2.jpg) center/cover;
+    height: 270px;
+    justify-content: center;
+}
+
+.boxtitle2 {
+    background: url(devback2.jpg) center/cover;
+    height: 270px;
+    justify-content: center;
+}
+
+.boxtitle3 {
+    background: url(devfull2.jpg) center/cover;
+    height: 270px;
+    justify-content: center;
+}
+.boxtitle4 {
+    background: url(devjv2.jpg) center/cover;
+    height: 270px;
+    justify-content: center;
+}
+.boxtitle5 {
+    background: url(architecte2.jpg) center/cover;
+    height: 270px;
+    justify-content: center;
+}
+.boxtitle6 {
+    background: url(devmob2.jpg) center/cover;
+    height: 270px;
+    justify-content: center;
+}
+
+body {
+    background: rgb(250, 249, 249);
+}
+.main {
+    font-family: 'poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.section1 {
+    margin-top: 45px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+    padding: 20px;
+    text-align: justify;
+    border: rgb(224, 224, 224) 1.2px solid;
+    background: white;
+}
+
+a,
+a .container ul {
+    color: rgb(0, 0, 0);
+    text-transform: none;
+    font-size: 1rem;
+}
+.container a:hover {
+    color: rgb(47, 26, 123);
+}
+
+.container ul {
+    list-style: none;
+    line-height: 30px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 65px;
+    padding-right: 60px;
+    line-height: 50px;
+}
+
+.summary strong {
+    font-size: 1.5rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead td {
+    border: 1.3px rgb(139, 139, 139) solid;
+    padding-top: 3px;
+    padding-left: 15px;
+    padding-bottom: 3px;
+    padding-right: 20px;
+    font-size: 0.9rem;
+    background: rgba(255, 255, 255, 0.664);
+}
+
+.section2 {
+    display: flex;
+    border: rgb(224, 224, 224) 1.2px solid;
+    background: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 20px;
+}
+
+.section3 {
+    display: flex;
+    border: rgb(224, 224, 224) 1.2px solid;
+    background: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 20px;
+}
+.section4 {
+    width: 30%;
+}
+
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 70px;
+}
+.container8 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexbox6 {
+    background: url(devfront1.jpg) center/cover;
+    height: 220px;
+    border-radius: 6px;
+}
+.flexbox8 {
+    background: url(devback.jpg) center/cover;
+    height: 220px;
+    border-radius: 6px;
+}
+.flexbox9 {
+    background: url(devfull.jpg) center/cover;
+    height: 220px;
+    border-radius: 6px;
+}
+.flexbox10 {
+    text-align: justify;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.flexbox12 {
+    background: url(devjv.jpg) center/cover;
+    height: 220px;
+    border-radius: 6px;
+}
+.flexbox13 {
+    background: url(architecte.jpg) center/cover;
+    height: 220px;
+    border-radius: 6px;
+}
+.flexbox14 {
+    background: url(devmob.jpg) center/cover;
+    height: 220px;
+    border-radius: 6px;
+}
+.flexbox21 {
+    background: url(salaire.jpg) center/cover;
+    height: 400px;
+    border-radius: 10px;
+    margin-left: 60px;
+}
+
+.flexbox22 {
+    width: 40%;
+    margin-left: 20px;
+}
+
+.section11 {
+    width: 58%;
+}
+
+.flexbox23 {
+    background: url(lesechos.jpg) center/cover;
+    height: 190px;
+    border-radius: 10px;
+    margin-right: 60px;
+}
+
+.flexbox24 {
+    background: url(stackoverflow.jpg) center/cover;
+    height: 190px;
+    border-radius: 10px;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+.flexbox25 {
+    width: 100%;
+}
+
+.flexbox26 {
+    background: url(classement.jpg) center/cover;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+
+
+.main2 {
+        font-family: 'poppins', sans-serif;
+        font-size: 1.1rem;
+}
+
+
+
+.section5 {
+    display: flex;
+    border: rgb(224, 224, 224) 1.2px solid;
+    background: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 65px;
+    margin-right: 65px;
+    padding: 20px;
+}
+
+.section6 {
+    display: flex;
+    border: rgb(224, 224, 224) 1.2px solid;
+    background: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 65px;
+    margin-right: 65px;
+    padding: 20px;
+}
+
+.container5 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 65px;
+    padding-right: 60px;
+    line-height: 50px;
+}
+
+a,
+a .container5 ul {
+    color: rgb(0, 0, 0);
+    text-transform: none;
+    font-size: 1rem;
+}
+.container5 a:hover {
+    color: rgb(47, 26, 123);
+}
+
+.container5 ul {
+    list-style: none;
+    line-height: 30px;
+
+}
+
+.container5 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 75px;
+    padding-right: 75px;
+    line-height: 50px;
+}
+
+.flexboxarticles {
+    padding-top: 150px;
+    width: 100%;
+}
+
+.flexboxarticles2 {
+    padding-top: 10px;
+    background: rgba(58, 58, 58, 0.6);
+    border-radius: 0 0 10px 10px;
+    height: 30px;
+}
+
+.flexboxtop10 {
+    width: 100%;
+    padding-top: 230px;
+}
+
+.flexboxtop102 {
+    padding-top: 15px;
+    background-color: rgba(58, 58, 58, 0.6);
+    border-radius: 0 0 10px 10px;
+    height: 55px;
+}
+
+
+.flexbox28 {
+    background: url(emploiit.jpg) center/cover;
+    height: 240px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.flexbox29 {
+    background: url(informatique.jpg) center/cover;
+    height: 240px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.flexbox30 {
+    background: url(afvj.jpg) center/cover;
+    height: 240px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.container9 {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 5px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.container30 {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 5px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.flexbox72 {
+    background: url(salaire2.jpg) center/cover;
+    height: 260px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.flexbox73 {
+    background: url(salaire3.jpg) center/cover;
+    height: 260px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.flexboxarticlesalaire {
+    padding-top: 205px;
+}
+.flexboxarticlesalaire2 {
+    background: rgba(58, 58, 58, 0.6);
+    border-radius: 0 0 10px 10px;
+    height: 40px;
+    padding-top: 15px;
+}
+
+h6 strong {
+    font-size: 1.1rem;
+}
+
+
+.flexbox71 {
+    width: 49%;
+}
+
+.flexbox27 {
+    width: 31.9%;
+}
+
+.flexboxarticle {
+   padding-top: 200px;
+}
+
+.flexboxarticle2 {
+    background: rgba(58, 58, 58, 0.6);
+    border-radius: 0 0 10px 10px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.flexbox41 {
+    background: url(actualités.JPG);
+    height: 200px;
+}
+
+.footer {
+    height: 70px;
+    background: rgb(20, 2, 40);
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexbox60 {
+    padding-top: 25px;
+    padding-left: 200px;
+}
+
+.flexbox61 {
+    padding-top: 25px;
+}
+
+.flexbox62 {
+    padding-top: 25px;
+    padding-right: 200px;
+}
+
+
+.a,
+.footer a {
+    color: rgb(151, 143, 169);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: smaller;
+}
+
